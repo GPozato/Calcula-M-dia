@@ -35,7 +35,7 @@ object frmCalc: TfrmCalc
     Height = 13
     Caption = 'Valor 3'
   end
-  object adtN1: TEdit
+  object edtN1: TEdit
     Left = 24
     Top = 24
     Width = 121
@@ -63,6 +63,7 @@ object frmCalc: TfrmCalc
     Height = 25
     Caption = 'M'#233'dia'
     TabOrder = 3
+    OnClick = btnMediaClick
   end
   object btnLimpar: TButton
     Left = 256
